@@ -2,9 +2,9 @@ import React from "react";
 import Container from "./container";
 import Image from "next/image";
 import CertificateImage from "../public/img/Hayk_Tunyan_Certificate_Master_JavaScript.jpg";
-// import CVImage from  "../public/pdf/CV_Hayk_Tunyan.pdf";
 
 const Certificate = () => {
+    
     /**
      * Functional Components.
      */

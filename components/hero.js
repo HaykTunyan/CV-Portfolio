@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
 import SectionTitle from "./sectionTitle";
-// import CVImage from  "../public/pdf/CV_Hayk_Tunyan.pdf";
 import heroImg from "../public/img/hero.png";
 import codes from "../public/img/codes-in-windows.png";
 import html from "../public/img/skills/html.svg";
@@ -19,6 +18,11 @@ import {
 } from "../utils/svg/svg";
 
 const Hero = () => {
+
+    /**
+     * Functional Components.
+     */
+
   return (
     <>
       {/* Info About Me */}

@@ -2,6 +2,11 @@ import React from "react";
 import Container from "./container";
 
 const SectionTitle = (props) => {
+
+    /**
+     * Functional Components.
+     */
+
   return (
     <Container
       className={`flex w-full flex-col mt-4 ${

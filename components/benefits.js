@@ -3,6 +3,12 @@ import React from "react";
 import Container from "./container";
 
 const Benefits = (props) => {
+
+    /**
+     * Functional Components.
+     */
+
+
   const { data } = props;
   return (
     <>

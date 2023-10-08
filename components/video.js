@@ -2,6 +2,11 @@ import { useState } from "react";
 import Container from "./container";
 
 const Video = () => {
+
+    /**
+     * Functional Components.
+     */
+
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>

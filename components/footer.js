@@ -5,11 +5,9 @@ import Container from "./container";
 
 export default function Footer() {
 
-
   /**
    * Hooks.
    */
-
 
   const navigation = [
     "GitHub",
@@ -19,6 +17,7 @@ export default function Footer() {
 
   ];
   const legal = ["HaykTunyan", "hayktunyan1994@gmail.com", "+37498942829", "@tunyan28",];
+  
   return (
     <div className="relative">
       <Container>

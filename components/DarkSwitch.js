@@ -7,7 +7,6 @@ const ThemeChanger = () => {
    * Function Component.
    */
 
-
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 

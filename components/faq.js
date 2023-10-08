@@ -4,6 +4,11 @@ import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Faq = () => {
+
+    /**
+     * Functional Components.
+     */
+
   return (
     <Container className="!p-0">
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">

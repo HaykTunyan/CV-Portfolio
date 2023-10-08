@@ -7,9 +7,6 @@ const PDFViewer = ({ pdfUrl }) => {
      * Functional Components.
      */
 
-
-
-
   return (
     <div>
       <Document file={pdfUrl}>

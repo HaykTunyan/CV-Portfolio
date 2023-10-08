@@ -1,14 +1,11 @@
 import React from "react";
 import Container from "./container";
 
-
-
 const Education = () => {
 
     /**
      * Functional Components.
      */
-
 
     return (
         <Container>
