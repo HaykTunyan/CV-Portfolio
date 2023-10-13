@@ -49,23 +49,29 @@ const Navbar = () => {
                       />
                     )}
                   </svg>
+
                 </Disclosure.Button>
+                <ThemeChanger />
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
-                    <Link href={"/https://www.linkedin.com/in/hayk-tunyan/"}
+                    <Link href={"https://www.linkedin.com/in/hayk-tunyan/"}
+                      target="_blank"
                       className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                       Linkedin
                     </Link>
                     <Link href={"https://github.com/HaykTunyan"}
+                    target="_blank"
                       className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                       Github
                     </Link>
-                    <Link href={"/ https://vercel.com/hayktunyan"}
+                    <Link href={"https://vercel.com/hayktunyan"}
+                    target="_blank"
                       className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                       Vercel
                     </Link>
                   </>
+          
                 </Disclosure.Panel>
 
               </div>
@@ -75,15 +81,18 @@ const Navbar = () => {
 
         <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
-            <Link href={"/https://www.linkedin.com/in/hayk-tunyan/"}
+            <Link href={"https://www.linkedin.com/in/hayk-tunyan/"}
+            target="_blank"
               className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
               Linkedin
             </Link>
             <Link href={"https://github.com/HaykTunyan"}
+            target="_blank"
               className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
               Github
             </Link>
-            <Link href={"/ https://vercel.com/hayktunyan"}
+            <Link href={"https://vercel.com/hayktunyan"}
+            target="_blank"
               className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
               Vercel
             </Link>
