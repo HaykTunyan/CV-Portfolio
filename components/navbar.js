@@ -51,7 +51,7 @@ const Navbar = () => {
                   </svg>
 
                 </Disclosure.Button>
-                <ThemeChanger />
+                {/* <ThemeChanger /> */}
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
@@ -70,6 +70,9 @@ const Navbar = () => {
                       className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                       Vercel
                     </Link>
+
+                    <ThemeChanger />
+                    
                   </>
           
                 </Disclosure.Panel>
