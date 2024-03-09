@@ -12,6 +12,7 @@ import saynine from "../public/img/porftelio/SayNine.webp"
 import optifyImg from "../public/img/porftelio/optify.png";
 import fleetforest from "../public/img/porftelio/fleetforest.png";
 import starfish from "../public/img/porftelio/starfish.png";
+import teraplake from "../public/img/porftelio/theraplake.png";
 import Link from "next/link";
 
 
@@ -40,13 +41,13 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal">
-              MyLot is an auction service website, for selling and buying product
+             Therapylake is a doctor service platform with a planned service system
             </p>
             <Avatar
-              image={mylotImg}
-              name="My Mot"
+              image={teraplake}
+              name="Therapylake"
               path={"View Website"}
-              url={"https://mylot.am/"}
+              url={"https://dev.therapylake.com/login"}
             />
           </div>
         </div>
@@ -75,7 +76,7 @@ const Testimonials = () => {
               image={optifyImg}
               name="Optify"
               path={"View Website"}
-              url={"https://dev.optify.ai/"}
+              url={"https://optify.netlify.app/"}
             />
           </div>
         </div>
