@@ -13,6 +13,8 @@ import optifyImg from "../public/img/porftelio/optify.png";
 import fleetforest from "../public/img/porftelio/fleetforest.png";
 import starfish from "../public/img/porftelio/starfish.png";
 import teraplake from "../public/img/porftelio/theraplake.png";
+import teraplakeApp  from  "../public/img/porftelio/TherapyLake-app.webp";
+import deepwhite from "../public/img/porftelio/deepwhite.png";
 import Link from "next/link";
 
 
@@ -106,6 +108,48 @@ const Testimonials = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="mt-5" />
+      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal">
+            An app for doctors from the Therapylake system
+            </p>
+            <Avatar
+              image={teraplakeApp}
+              name="Optify"
+              path={"View App Store"}
+              url={"https://apps.apple.com/us/app/therapylake/id6450555754"}
+            />
+          </div>
+        </div>
+        <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+            DeepWhite is an asset management and consulting company
+            </p>
+            <Avatar
+              image={deepwhite}
+              name="Deepwhite"
+              path={"View Website"}
+              url={"https://deepwhite.am/"}
+            />
+          </div>
+        </div>
+        {/* <div className="lg:col-span-2 xl:col-auto">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-2xl leading-normal ">
+              Starfish is a great admin system tool for truck centers.
+            </p>
+            <Avatar
+              image={starfish}
+              name="Starfish"
+              path={"View Website"}
+              url={"https://starfish.eachbase.com/"}
+            />
+          </div>
+        </div> */}
       </div>
     </Container>
   );
