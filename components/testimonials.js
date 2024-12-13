@@ -13,8 +13,9 @@ import optifyImg from "../public/img/porftelio/optify.png";
 import fleetforest from "../public/img/porftelio/fleetforest.png";
 import starfish from "../public/img/porftelio/starfish.png";
 import teraplake from "../public/img/porftelio/theraplake.png";
-import teraplakeApp  from  "../public/img/porftelio/TherapyLake-app.webp";
+import teraplakeApp from "../public/img/porftelio/TherapyLake-app.webp";
 import deepwhite from "../public/img/porftelio/deepwhite.png";
+import hantec from "../public/img/porftelio/hantec.png";
 import Link from "next/link";
 
 
@@ -43,7 +44,7 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal">
-             Therapylake is a doctor service platform with a planned service system
+              Therapylake is a doctor service platform with a planned service system
             </p>
             <Avatar
               image={teraplake}
@@ -114,7 +115,7 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal">
-            An app for doctors from the Therapylake system
+              An app for doctors from the Therapylake system
             </p>
             <Avatar
               image={teraplakeApp}
@@ -127,7 +128,7 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-            DeepWhite is an asset management and consulting company
+              DeepWhite is an asset management and consulting company
             </p>
             <Avatar
               image={deepwhite}
@@ -137,19 +138,19 @@ const Testimonials = () => {
             />
           </div>
         </div>
-        {/* <div className="lg:col-span-2 xl:col-auto">
+        <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Starfish is a great admin system tool for truck centers.
+              Hantec Group's world-class trading platform for forex, indices, and commodities.
             </p>
             <Avatar
-              image={starfish}
-              name="Starfish"
+              image={hantec}
+              name="Hantec"
               path={"View Website"}
-              url={"https://starfish.eachbase.com/"}
+              url={"https://hantec-financial.vercel.app/"}
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </Container>
   );
