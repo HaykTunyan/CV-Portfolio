@@ -15,6 +15,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
             rel="stylesheet"
           />
+
+<Link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

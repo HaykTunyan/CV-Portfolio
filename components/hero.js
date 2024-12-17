@@ -33,12 +33,14 @@ const Hero = () => {
               Hi 👋, I'm Hayk Tunyan
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              I am a Front End Engineer with 5 years of experience, Familiar with JavaScript, TypeScript, and Python. I have used popular frameworks and libraries like React JS, Angular 2+, Next JS, React Native, and more. I have worked on various systems, including project-based service systems, food delivery systems, information websites, small gaming systems, and similar products.
+              👋 Seasoned Front End Engineer | Expertise in JavaScript, TypeScript, and Python (beginner) <br />
+
+              With over 5 + years of hands-on experience in front-end development, I bring a wealth of expertise in crafting intuitive and dynamic user interfaces. My proficiency spans across a multitude of popular frameworks and libraries, including React JS, Next.js, Angular 2+, and React Native.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="./pdf/Hayk_Tunyan_Resume.pdf"
+                href="./pdf/Hayk__Tunyan_CV-.pdf"
                 download
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
@@ -84,7 +86,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center">
           <SectionTitle
             title=" My Skills">
-           Front End Experience Skills, Languages, Library , Frameworks and Test
+            Front End Experience Skills, Languages, Library , Frameworks and Test
           </SectionTitle>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

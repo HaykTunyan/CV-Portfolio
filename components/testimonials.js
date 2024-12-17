@@ -119,8 +119,8 @@ const Testimonials = () => {
             </p>
             <Avatar
               image={teraplakeApp}
-              name="Optify"
-              path={"View App Store"}
+              name="Therapylake "
+              path={"Download from the App Store"}
               url={"https://apps.apple.com/us/app/therapylake/id6450555754"}
             />
           </div>
